@@ -47,6 +47,9 @@ router.get('/profile', async (req, res) => {
     }
 })
 
-
+router.get('/logout', async (req, res) => {
+    // work in progress
+    res.status(200).json({ message: 'Successfully logged out' })
+})
 
 module.exports = router
